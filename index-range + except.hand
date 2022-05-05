@@ -1,0 +1,12 @@
+coffee = ["Café Latte", "Caffe Americano", "Espresso", "Cappuccino", "Macchiato"]
+
+choice = int(input())
+
+try:
+	print(coffee[choice]) #chamando a var como índice para definir o range
+	
+except:
+	print("Invalid number")
+	
+finally:
+	print("Have a good day")
